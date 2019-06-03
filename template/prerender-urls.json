@@ -1,0 +1,32 @@
+[
+  {
+    "url": "",
+    "title": "Preact Prerender Test",
+    "og": {
+      "site_name": "Preact Prerender Test",
+      "url": "https://google.com/",
+      "description": "This is a sample for Preact with prerender feature.",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    }
+  },
+  {
+    "url": "/",
+    "title": "Preact Prerender Test",
+    "og": {
+      "site_name": "Preact Prerender Test",
+      "url": "https://google.com/",
+      "description": "This is a sample for Preact with prerender feature.",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    }
+  },
+  {
+    "url": "/profile",
+    "title": "Preact Prerender Test Profile",
+    "og": {
+      "site_name": "Preact Prerender Test Profile",
+      "url": "https://google.com/",
+      "description": "This is a sample for Preact with prerender feature.",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    }
+  }
+]
