@@ -35,6 +35,7 @@
   "dependencies": {
     "@material/base": "^1.0.0",
     "@material/tab-scroller": "^2.3.0",
+    "@material/ripple": "^2.3.0",
     "dexie": "^2.0.4",
     "preact": "^8.2.1",
     "preact-compat": "^3.17.0",
