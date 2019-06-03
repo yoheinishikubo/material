@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
-    "build": "preact build",
-    "serve": "preact build && http-server build",
+    "build": "preact build --template src/template.html --prerender --prerenderUrls src/prerender-urls.json",
+    "serve": "yarn build && http-server build",
     "dev": "preact watch",
     "lint": "eslint src",
     "styles:eject": "rsync -arvvm --include='*/' --include='*css' --exclude='*' node_modules/preact-material-components/ ./src/styles/"
