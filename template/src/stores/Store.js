@@ -1,6 +1,5 @@
 import Dexie from 'dexie';
 import { name } from '../../package.json';
-console.log(name);
 const db = new Dexie(name);
 
 db.version(1).stores({
